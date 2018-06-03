@@ -1,0 +1,27 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Polls App</title>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
+</head>
+<body>
+<header>
+    {% block header %}
+    <h1>Poll App</h1>
+    {% endblock %}
+</header>
+
+<article>
+    {% block content %}
+    {% endblock %}
+</article>
+
+<footer>
+    {% block footer %}{% endblock %}
+</footer>
+</body>
+</html>
