@@ -1,3 +1,3 @@
-from django_sample.settings.base import *
+from .base import *
 
 DEBUG=false
