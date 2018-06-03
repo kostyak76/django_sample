@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "django_sample.settings.uat")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "django_sample.settings.prod")
 
 application = get_wsgi_application()
